@@ -3,26 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <!-- Google favicon -->
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com">
-    <!-- Awesome fonts link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- Stylings -->
+    <title>[Your Name] | SRE/DevOps Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello world!</h1>
-    <ol>
-        <li><a href="./1_quote-generator/" target="_blank">Quote generator</a></li>
-    </ol>
+    <header class="hero">
+        <div class="container">
+            <h1>[Your Name]</h1>
+            <h2>Site Reliability Engineer & Cloud Architect</h2>
+            <div class="availability">
+                <span class="status-dot"></span>
+                <span>Available for consulting engagements</span>
+            </div>
+        </div>
+    </header>
 
+    <section id="metrics" class="section">
+        <div class="container">
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <h3>99.99% Uptime</h3>
+                    <p>Average system availability</p>
+                </div>
+                <div class="metric-card">
+                    <i class="fas fa-server"></i>
+                    <h3>500+ Nodes</h3>
+                    <p>Managed infrastructure</p>
+                </div>
+                <div class="metric-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>15s MTTR</h3>
+                    <p>Mean time to recovery</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="expertise" class="section">
+        <div class="container">
+            <h2>Core Expertise</h2>
+            <div class="expertise-grid">
+                <div class="expertise-card cloud">
+                    <h3><i class="fab fa-aws"></i> Cloud Platforms</h3>
+                    <ul>
+                        <li>AWS Certified Solutions Architect Pro</li>
+                        <li>GCP Professional Cloud Architect</li>
+                        <li>Azure Administrator Expert</li>
+                    </ul>
+                </div>
+                <div class="expertise-card automation">
+                    <h3><i class="fas fa-robot"></i> Automation</h3>
+                    <ul>
+                        <li>Terraform Enterprise</li>
+                        <li>Ansible Playbooks</li>
+                        <li>Python Scripting</li>
+                    </ul>
+                </div>
+                <div class="expertise-card monitoring">
+                    <h3><i class="fas fa-chart-line"></i> Observability</h3>
+                    <ul>
+                        <li>Prometheus/Grafana</li>
+                        <li>Datadog Implementation</li>
+                        <li>ELK Stack</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    
-    <!-- Awesome fonts usage -->
-    <!-- <i class="fa-solid fa-bars"></i> -->
-    <!-- Script code -->
-    <script src="script.js"></script>
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Key Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3>Global E-commerce Platform SRE</h3>
+                        <div class="tech-tags">
+                            <span>AWS</span>
+                            <span>K8s</span>
+                            <span>Terraform</span>
+                        </div>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <div class="value">99.995%</div>
+                            <div class="label">Uptime</div>
+                        </div>
+                        <div class="metric">
+                            <div class="value">2.5M RPM</div>
+                            <div class="label">Requests</div>
+                        </div>
+                    </div>
+                    <p>Led SRE team managing 500+ node Kubernetes cluster supporting peak loads of 2.5M requests/minute...</p>
+                    <a href="#" class="case-study-link">View Case Study →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
